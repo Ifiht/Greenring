@@ -309,3 +309,82 @@ TermSocket.open: Opened 1
 [E 15:14:07.197 NotebookApp] 500 GET /user/ifiht-greenring-d3u4q8b0/api/metrics/v1?1637075646913 (209.22.180.17) 25.380000ms referer=https://hub.gke2.mybinder.org/user/ifiht-greenring-d3u4q8b0/lab
 [I 15:14:38.212 NotebookApp] Saving file at /MasterRepoList.ipynb
 [I 15:20:01.092 NotebookApp] Saving file at /MasterRepoList.ipynb
+[W 2021-11-17 15:37:26.558 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.559 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.559 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.559 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.566 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.566 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.566 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.567 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-11-17 15:37:26.567 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-11-17 15:37:26.567 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.567 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-11-17 15:37:26.567 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-11-17 15:37:26.586 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-11-17 15:37:26.587 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:37:26.664 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 15:37:26.668 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 15:37:26.673 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:37:26.673 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 15:37:26.673 NotebookApp] http://jupyter-ifiht-2dgreenring-2d9tyoawea:8888/user/ifiht-greenring-9tyoawea/?token=...
+[I 15:37:26.673 NotebookApp]  or http://127.0.0.1:8888/user/ifiht-greenring-9tyoawea/?token=...
+[I 15:37:26.674 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:37:26.692 NotebookApp] No web browser found: could not locate runnable browser.
+[I 15:37:26.701 NotebookApp] 302 GET /user/ifiht-greenring-9tyoawea/ (10.0.11.11) 6.770000ms
+[I 15:37:35.559 NotebookApp] 301 GET /user/ifiht-greenring-9tyoawea/static/favicons/favicon.ico (209.22.180.17) 0.670000ms
+[I 2021-11-17 15:37:40.906 LabApp] Build is up to date
+[W 15:37:43.752 NotebookApp] 404 GET /user/ifiht-greenring-9tyoawea/api/contents/rush/repl.rb?content=0&1637163463511 (209.22.180.17): No such file or directory: rush/repl.rb
+[W 15:37:43.752 NotebookApp] No such file or directory: rush/repl.rb
+[W 15:37:43.753 NotebookApp] 404 GET /user/ifiht-greenring-9tyoawea/api/contents/rush/repl.rb?content=0&1637163463511 (209.22.180.17) 2.100000ms referer=https://hub.gke2.mybinder.org/user/ifiht-greenring-9tyoawea/lab
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 15:37:44.216 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[W 15:37:44.753 NotebookApp] 404 GET /user/ifiht-greenring-9tyoawea/api/contents/rush?1637163464525 (209.22.180.17): No such file or directory: rush
+[W 15:37:44.753 NotebookApp] No such file or directory: rush
+[W 15:37:44.754 NotebookApp] 404 GET /user/ifiht-greenring-9tyoawea/api/contents/rush?1637163464525 (209.22.180.17) 2.520000ms referer=https://hub.gke2.mybinder.org/user/ifiht-greenring-9tyoawea/lab
+Exception in callback <TaskStepMethWrapper object at 0x7f7ffcc6d210>()
+handle: <Handle <TaskStepMethWrapper object at 0x7f7ffcc6d210>()>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending coro=<HTTP1ServerConnection._server_request_loop() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/http1connection.py:815> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> while another task <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> is being executed.
+[I 15:37:44.959 NotebookApp] Kernel started: d1356046-b8f9-487c-8cd9-e614474957f1, name: python3
+[I 15:37:44.973 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 15:37:44.974 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 15:37:46.661 NotebookApp] Starting buffering for d1356046-b8f9-487c-8cd9-e614474957f1:dc856c2c-a5ef-43cf-9131-6955cc6f7a0b
+[I 15:37:46.935 NotebookApp] 301 GET /user/ifiht-greenring-9tyoawea/static/favicons/favicon-busy-1.ico (209.22.180.17) 0.980000ms
+[W 15:48:44.975 NotebookApp] Culling 'idle' kernel 'python3' (d1356046-b8f9-487c-8cd9-e614474957f1) with 2 connections due to 657 seconds of inactivity.
+[I 15:48:44.979 NotebookApp] Kernel shutdown: d1356046-b8f9-487c-8cd9-e614474957f1
+[I 15:56:28.505 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 15:56:36.206 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[I 15:56:36.660 NotebookApp] Kernel started: 40c2f7dc-0290-4bbf-8d1f-592321888f3f, name: python3
+[I 15:58:36.490 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 16:07:19.602 NotebookApp] Saving file at /binder/environment.yml
+[W 16:07:44.975 NotebookApp] Culling 'idle' kernel 'python3' (40c2f7dc-0290-4bbf-8d1f-592321888f3f) with 1 connections due to 640 seconds of inactivity.
+[I 16:07:44.976 NotebookApp] Kernel shutdown: 40c2f7dc-0290-4bbf-8d1f-592321888f3f
+Websocket closed
+[I 2021-11-17 16:08:33.176 LabApp] Build is up to date
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 16:08:34.006 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[I 16:08:34.511 NotebookApp] Kernel started: 34120adb-c59e-43a5-a486-f3a058ff2aae, name: python3
+[I 16:08:35.872 NotebookApp] Starting buffering for 34120adb-c59e-43a5-a486-f3a058ff2aae:afb43621-5b38-4b3c-94cc-ee2bfcac72b4
+Websocket closed
+[I 16:09:09.448 NotebookApp] Starting buffering for 34120adb-c59e-43a5-a486-f3a058ff2aae:975f057a-a1c0-4622-b2cd-2c1d53f9d85e
+[I 2021-11-17 16:09:13.815 LabApp] Build is up to date
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 16:09:14.410 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[I 16:09:33.644 NotebookApp] Saving file at /binder/postBuild
+[I 16:09:45.466 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
