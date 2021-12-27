@@ -519,3 +519,11 @@ TermSocket.open: Opened 1
 [I 18:08:59.794 NotebookApp] Saving file at /Untitled.ipynb
 [I 18:12:59.988 NotebookApp] Saving file at /Untitled.ipynb
 [I 18:15:01.147 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:17:01.797 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:18:43.364 NotebookApp] Saving file at /MasterRepoList.ipynb
+[W 18:19:12.543 NotebookApp] Notebook finaid/rubikon.ipynb is not trusted
+[I 18:19:14.475 NotebookApp] Kernel started: 3807b498-1b9f-4641-adce-009c37d0b1f7, name: python3
+[I 18:20:43.771 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 18:21:02.822 NotebookApp] Saving file at /Untitled.ipynb
+[I 18:21:14.089 NotebookApp] Saving file at /finaid/rubikon.ipynb
+[W 18:21:14.090 NotebookApp] Notebook finaid/rubikon.ipynb is not trusted
