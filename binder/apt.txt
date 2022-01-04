@@ -3,4 +3,5 @@ ssmtp
 bison
 flex
 nano
+sudo
 zsh

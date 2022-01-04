@@ -630,3 +630,4 @@ TermSocket.open: Opened 1
 [W 18:14:54.243 NotebookApp] Culling 'idle' kernel 'python3' (58904e67-b3e8-429f-95fb-bb78f3f70673) with 2 connections due to 658 seconds of inactivity.
 [I 18:14:54.244 NotebookApp] Kernel shutdown: 58904e67-b3e8-429f-95fb-bb78f3f70673
 [I 18:16:51.453 NotebookApp] Saving file at /binder/environment.yml
+[I 18:18:57.032 NotebookApp] Saving file at /binder/apt.txt
