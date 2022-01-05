@@ -682,3 +682,66 @@ TermSocket.open: Opened 2
 [I 19:38:27.729 NotebookApp] Saving file at /ash/master.zsh
 [I 19:39:00.468 NotebookApp] Saving file at /ash/master.zsh
 [I 19:39:05.782 NotebookApp] Saving file at /ash/master.zsh
+[W 2022-01-05 19:43:03.065 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.070 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.077 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.078 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.078 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.078 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.079 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.079 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-01-05 19:43:03.080 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-01-05 19:43:03.081 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.081 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-01-05 19:43:03.081 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-01-05 19:43:03.114 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-01-05 19:43:03.114 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:43:03.145 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 19:43:03.149 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 19:43:03.150 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:43:03.150 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 19:43:03.151 NotebookApp] http://jupyter-ifiht-2dgreenring-2dcu5fzlty:8888/user/ifiht-greenring-cu5fzlty/?token=...
+[I 19:43:03.151 NotebookApp]  or http://127.0.0.1:8888/user/ifiht-greenring-cu5fzlty/?token=...
+[I 19:43:03.151 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:43:03.158 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:43:03.162 NotebookApp] 302 GET /user/ifiht-greenring-cu5fzlty/ (10.244.3.64) 1.460000ms
+[I 19:43:09.444 NotebookApp] 301 GET /user/ifiht-greenring-cu5fzlty/static/favicons/favicon.ico (209.22.180.17) 0.730000ms
+[I 2022-01-05 19:43:14.259 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 19:44:41.800 NotebookApp] 404 GET /user/ifiht-greenring-cu5fzlty/terminals/websocket/1 (209.22.180.17) 28.660000ms referer=None
+[W 19:44:42.078 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[I 19:44:46.480 NotebookApp] Kernel started: ae7ac388-504c-4070-9f49-15e490b57fc6, name: python3
+[I 19:44:46.481 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 19:44:46.481 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 19:44:47.634 NotebookApp] Starting buffering for ae7ac388-504c-4070-9f49-15e490b57fc6:dc1d2d21-f388-49d6-814f-78fefad0871d
+[I 19:44:48.077 NotebookApp] 301 GET /user/ifiht-greenring-cu5fzlty/static/favicons/favicon-busy-1.ico (209.22.180.17) 0.600000ms
+[I 19:45:03.267 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 19:46:42.895 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 19:48:38.080 NotebookApp] Saving file at /MasterRepoList.ipynb
+[W 19:58:46.482 NotebookApp] Culling 'idle' kernel 'python3' (ae7ac388-504c-4070-9f49-15e490b57fc6) with 2 connections due to 619 seconds of inactivity.
+[I 19:58:46.483 NotebookApp] Kernel shutdown: ae7ac388-504c-4070-9f49-15e490b57fc6
+[I 20:09:10.397 NotebookApp] Saving file at /MasterRepoList.ipynb
+[W 20:09:12.415 NotebookApp] Notebook MasterRepoList.ipynb is not trusted
+[I 20:09:13.153 NotebookApp] Kernel started: c378f647-c6fd-4fc6-b86f-91a5ec24a149, name: python3
+[I 20:11:12.932 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 20:13:12.766 NotebookApp] Saving file at /rvm/scripts/rvm
+[W 20:16:00.011 NotebookApp] 404 GET /user/ifiht-greenring-cu5fzlty/api/contents/rvm/scripts?content=1&1641413759927 (209.22.180.17): No such file or directory: rvm/scripts
+[W 20:16:00.012 NotebookApp] No such file or directory: rvm/scripts
+[W 20:16:00.013 NotebookApp] 404 GET /user/ifiht-greenring-cu5fzlty/api/contents/rvm/scripts?content=1&1641413759927 (209.22.180.17) 5.130000ms referer=https://hub.mybinder.turing.ac.uk/user/ifiht-greenring-cu5fzlty/lab/tree/MasterRepoList.ipynb
+[I 20:17:14.049 NotebookApp] Saving file at /MasterRepoList.ipynb
+[W 20:20:58.550 NotebookApp] 404 GET /user/ifiht-greenring-cu5fzlty/api/contents/rvm/scripts?content=1&1641414058504 (209.22.180.17): No such file or directory: rvm/scripts
+[W 20:20:58.551 NotebookApp] No such file or directory: rvm/scripts
+[W 20:20:58.552 NotebookApp] 404 GET /user/ifiht-greenring-cu5fzlty/api/contents/rvm/scripts?content=1&1641414058504 (209.22.180.17) 3.000000ms referer=https://hub.mybinder.turing.ac.uk/user/ifiht-greenring-cu5fzlty/lab/tree/rvm/scripts
+[I 20:21:15.230 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 20:21:42.634 NotebookApp] Saving file at /rvm/scripts/rvm
+[I 20:23:17.012 NotebookApp] Saving file at /MasterRepoList.ipynb
+[I 20:25:27.336 NotebookApp] Saving file at /rvm/CHANGELOG.md
+[I 20:29:11.929 NotebookApp] Saving file at /rvm/CHANGELOG.md
+[W 20:39:46.482 NotebookApp] Culling 'idle' kernel 'python3' (c378f647-c6fd-4fc6-b86f-91a5ec24a149) with 1 connections due to 632 seconds of inactivity.
+[I 20:39:46.483 NotebookApp] Kernel shutdown: c378f647-c6fd-4fc6-b86f-91a5ec24a149
