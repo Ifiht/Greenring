@@ -1,4 +1,5 @@
 build-essential
+iputils-ping
 ssmtp
 bison
 flex
